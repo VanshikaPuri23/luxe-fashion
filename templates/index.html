@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUXE Fashion</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- PROMO BANNER -->
+  <div class="promo-banner">
+    FREE DELIVERY ON ORDERS ABOVE ₹1,500 &nbsp;·&nbsp; NEW ARRIVALS EVERY FRIDAY &nbsp;·&nbsp; 30-DAY RETURNS
+  </div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+      <a href="#">New arrivals</a>
+      <a href="#">Women</a>
+      <a href="#">Men</a>
+    </div>
+    <div class="logo">LUXE</div>
+    <div class="nav-right">
+      <a href="#">Accessories</a>
+      <a href="#">Sale</a>
+      <i class="ti ti-search"></i>
+      <i class="ti ti-heart"></i>
+      <i class="ti ti-shopping-bag"></i>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Summer Collection 2025</p>
+      <h1 class="hero-title">Dress for the<br><em>moment.</em></h1>
+      <p class="hero-sub">Curated fashion for every occasion. From casual everyday wear to statement evening pieces.</p>
+      <div class="hero-btns">
+        <button class="btn-dark">Shop now</button>
+        <button class="btn-outline">View lookbook</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-img-box">
+          <span class="hero-icon">👗</span>
+        </div>
+        <div class="hero-card-label">
+          <p>New arrival</p>
+          <h4>Linen Co-ord Set</h4>
+          <span>₹3,499</span>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <p>Limited edition</p>
+        <h4>Summer '25</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>FREE SHIPPING</span><span class="dot">·</span>
+      <span>NEW ARRIVALS</span><span class="dot">·</span>
+      <span>EASY RETURNS</span><span class="dot">·</span>
+      <span>SUSTAINABLE FASHION</span><span class="dot">·</span>
+      <span>HAND CRAFTED</span><span class="dot">·</span>
+      <span>FREE SHIPPING</span><span class="dot">·</span>
+      <span>NEW ARRIVALS</span><span class="dot">·</span>
+      <span>EASY RETURNS</span><span class="dot">·</span>
+      <span>SUSTAINABLE FASHION</span><span class="dot">·</span>
+      <span>HAND CRAFTED</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="section">
+    <div class="section-header">
+      <h2>Featured products</h2>
+      <a href="#">View all →</a>
+    </div>
+    <div class="products">
+      <div class="product-card">
+        <div class="product-img" style="background:#f0ebe0;">
+          <span>👗</span>
+          <div class="product-overlay"><button>Quick add</button></div>
+        </div>
+        <div class="product-info">
+          <h4>Linen sundress</h4>
+          <p>Summer collection</p>
+          <div class="product-bottom">
+            <span class="price">₹2,499</span>
+            <i class="ti ti-heart wish"></i>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:#e8ebf0;">
+          <span>🧥</span>
+          <div class="product-overlay"><button>Quick add</button></div>
+        </div>
+        <div class="product-info">
+          <h4>Blazer set</h4>
+          <p>Office wear</p>
+          <div class="product-bottom">
+            <span class="price">₹4,999</span>
+            <i class="ti ti-heart wish"></i>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:#ebf0e8;">
+          <span>👚</span>
+          <div class="product-overlay"><button>Quick add</button></div>
+        </div>
+        <div class="product-info">
+          <h4>Crop top</h4>
+          <p>Casual wear</p>
+          <div class="product-bottom">
+            <span class="price">₹999</span>
+            <i class="ti ti-heart wish"></i>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:#f0e8ee;">
+          <span>👜</span>
+          <div class="product-overlay"><button>Quick add</button></div>
+        </div>
+        <div class="product-info">
+          <h4>Tote bag</h4>
+          <p>Accessories</p>
+          <div class="product-bottom">
+            <span class="price">₹1,799</span>
+            <i class="ti ti-heart wish"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER -->
+  <section class="mid-banner">
+    <div class="mid-banner-text">
+      <p class="hero-eyebrow">Limited time offer</p>
+      <h2>Up to 40% off<br><em>this weekend.</em></h2>
+      <button class="btn-dark">Shop the sale</button>
+    </div>
+    <div class="mid-banner-visual">🛍️</div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section features-section">
+    <h2 style="text-align:center;margin-bottom:2.5rem;">Why shop with us</h2>
+    <div class="features">
+      <div class="feature">
+        <i class="ti ti-truck-delivery"></i>
+        <h4>Free delivery</h4>
+        <p>On orders above ₹1,500</p>
+      </div>
+      <div class="feature">
+        <i class="ti ti-refresh"></i>
+        <h4>Easy returns</h4>
+        <p>30-day return policy</p>
+      </div>
+      <div class="feature">
+        <i class="ti ti-shield-check"></i>
+        <h4>Authentic products</h4>
+        <p>100% genuine brands</p>
+      </div>
+      <div class="feature">
+        <i class="ti ti-headset"></i>
+        <h4>24/7 support</h4>
+        <p>Chat with us anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials-section">
+    <div class="section-header">
+      <h2>What our customers say</h2>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Absolutely love the quality. The linen sundress is everything I wanted — elegant and comfortable."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar">P</div>
+          <div>
+            <h5>Priya S.</h5>
+            <span>Delhi</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"The blazer set is stunning. Got so many compliments at work. Will definitely order again."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar">A</div>
+          <div>
+            <h5>Ananya M.</h5>
+            <span>Mumbai</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Fast delivery, beautiful packaging, and the clothes feel so premium. LUXE never disappoints."</p>
+        <div class="reviewer">
+          <div class="reviewer-avatar">R</div>
+          <div>
+            <h5>Riya K.</h5>
+            <span>Bangalore</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <p class="hero-eyebrow">Stay in the loop</p>
+    <h2>Join the LUXE family</h2>
+    <p>Get early access to new arrivals, exclusive offers, and style inspiration.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Your email address"/>
+      <button class="btn-dark">Subscribe</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-col">
+        <h3 class="logo" style="font-size:24px;margin-bottom:1rem;">LUXE</h3>
+        <p>Premium fashion for every occasion. Curated with love, delivered with care.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <a href="#">New arrivals</a>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Accessories</a>
+        <a href="#">Sale</a>
+      </div>
+      <div class="footer-col">
+        <h5>Help</h5>
+        <a href="#">Track order</a>
+        <a href="#">Returns</a>
+        <a href="#">Size guide</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="footer-col">
+        <h5>Follow us</h5>
+        <div class="socials">
+          <i class="ti ti-brand-instagram"></i>
+          <i class="ti ti-brand-twitter"></i>
+          <i class="ti ti-brand-facebook"></i>
+          <i class="ti ti-brand-pinterest"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 LUXE Fashion. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- CHAT BUTTON -->
+  <button class="chat-btn" onclick="toggleChat()" aria-label="Open chat">
+    <i class="ti ti-message-circle"></i>
+  </button>
+
+  <!-- CHAT WINDOW -->
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <div class="chat-avatar">✨</div>
+      <div>
+        <h4>LUXE Assistant</h4>
+        <p>Online · Replies instantly</p>
+      </div>
+      <i class="ti ti-x close-btn" onclick="toggleChat()"></i>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg bot">Hi! Welcome to LUXE 👋 I'm your personal style assistant. Ask me about our collections, sizing, delivery, or anything else!</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Ask me anything..."/>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
